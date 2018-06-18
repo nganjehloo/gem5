@@ -428,7 +428,8 @@ class TempCacheBlk final : public CacheBlk
      * @param addr Block address.
      * @param is_secure Whether the block is in secure space or not.
      */
-    void insert(const Addr addr, const bool is_secure)
+    void insert(const Addr addr, const bool is_secure,
+                const int src_master_ID=0, const uint32_t task_ID=0) override
     {
         // Set block address
         _addr = addr;
