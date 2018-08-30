@@ -1,0 +1,59 @@
+Number of blocks at level 0 at timestep 0 is 1
+Number of blocks at level 1 at timestep 0 is 0
+Number of blocks at level 2 at timestep 0 is 0
+Number of blocks at level 3 at timestep 0 is 0
+Number of blocks at level 4 at timestep 0 is 0
+Number of blocks at level 5 at timestep 0 is 0
+
+Number of blocks at level 0 at timestep 5 is 1
+Number of blocks at level 1 at timestep 5 is 0
+Number of blocks at level 2 at timestep 5 is 0
+Number of blocks at level 3 at timestep 5 is 0
+Number of blocks at level 4 at timestep 5 is 0
+Number of blocks at level 5 at timestep 5 is 0
+
+Number of blocks at level 0 at timestep 10 is 1
+Number of blocks at level 1 at timestep 10 is 0
+Number of blocks at level 2 at timestep 10 is 0
+Number of blocks at level 3 at timestep 10 is 0
+Number of blocks at level 4 at timestep 10 is 0
+Number of blocks at level 5 at timestep 10 is 0
+
+Number of blocks at level 0 at timestep 15 is 1
+Number of blocks at level 1 at timestep 15 is 0
+Number of blocks at level 2 at timestep 15 is 0
+Number of blocks at level 3 at timestep 15 is 0
+Number of blocks at level 4 at timestep 15 is 0
+Number of blocks at level 5 at timestep 15 is 0
+
+Number of blocks at level 0 at timestep 20 is 1
+Number of blocks at level 1 at timestep 20 is 0
+Number of blocks at level 2 at timestep 20 is 0
+Number of blocks at level 3 at timestep 20 is 0
+Number of blocks at level 4 at timestep 20 is 0
+Number of blocks at level 5 at timestep 20 is 0
+
+
+ ================ Start report ===================
+
+          Mantevo miniAMR
+          version 1.0 provisional
+
+serial run on 1 rank
+initial blocks per rank 1 x 1 x 1
+block size 10 x 10 x 10
+Maximum number of blocks per rank is 500
+Number of levels of refinement is 5
+Blocks can change by 5 levels per refinement step
+
+Blocks will be refined by 0 objects
+
+
+Number of timesteps is 20
+Communicaion/computation stages per timestep is 20
+Will perform checksums every 5 stages
+Will refine every 5 timesteps
+Will not plot results
+Calculate on 40 variables with 7 point stencil
+Communicate 40 variables at a time
+Error tolorance for variable sums is 10^(-8)
