@@ -1,0 +1,8 @@
+
+ Performance counter stats for './Oscar':
+
+        42,844,151      instructions              #    2.78  insn per cycle                                            
+        15,429,368      cpu-cycles                                                  
+
+       0.013977475 seconds time elapsed
+

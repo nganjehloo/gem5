@@ -1,0 +1,8 @@
+
+ Performance counter stats for './Quicksort':
+
+       169,596,955      instructions              #    1.01  insn per cycle                                            
+       167,873,944      cpu-cycles                                                  
+
+       0.061810727 seconds time elapsed
+
