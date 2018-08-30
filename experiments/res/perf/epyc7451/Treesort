@@ -1,8 +1,0 @@
-
- Performance counter stats for './Treesort':
-
-       339,061,427      instructions              #    1.16  insn per cycle                                            
-       292,113,117      cpu-cycles                                                  
-
-       0.102661912 seconds time elapsed
-

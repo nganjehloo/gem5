@@ -1,8 +1,0 @@
-
- Performance counter stats for './RealMM':
-
-        26,670,609      instructions              #    2.98  insn per cycle                                            
-         8,946,714      cpu-cycles                                                  
-
-       0.005517488 seconds time elapsed
-

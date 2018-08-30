@@ -1,8 +1,0 @@
-
- Performance counter stats for './IntMM':
-
-        26,472,368      instructions              #    3.18  insn per cycle                                            
-         8,333,604      cpu-cycles                                                  
-
-       0.007514477 seconds time elapsed
-

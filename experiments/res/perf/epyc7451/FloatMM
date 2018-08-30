@@ -1,8 +1,0 @@
-
- Performance counter stats for './FloatMM':
-
-    13,022,841,207      instructions              #    3.20  insn per cycle                                            
-     4,070,155,528      cpu-cycles                                                  
-
-       1.282385798 seconds time elapsed
-

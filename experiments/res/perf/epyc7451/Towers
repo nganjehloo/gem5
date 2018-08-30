@@ -1,8 +1,0 @@
-
- Performance counter stats for './Towers':
-
-       230,782,526      instructions              #    2.09  insn per cycle                                            
-       110,194,104      cpu-cycles                                                  
-
-       0.045290603 seconds time elapsed
-

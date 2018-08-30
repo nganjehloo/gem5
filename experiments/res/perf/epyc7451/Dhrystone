@@ -1,8 +1,0 @@
-
- Performance counter stats for './Dhrystone':
-
-       902,707,300      instructions              #    2.49  insn per cycle                                            
-       362,218,305      cpu-cycles                                                  
-
-       0.123031144 seconds time elapsed
-

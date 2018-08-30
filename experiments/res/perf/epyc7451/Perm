@@ -1,8 +1,0 @@
-
- Performance counter stats for './Perm':
-
-       229,501,737      instructions              #    2.16  insn per cycle                                            
-       106,137,821      cpu-cycles                                                  
-
-       0.044386784 seconds time elapsed
-

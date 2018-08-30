@@ -1,8 +1,0 @@
-
- Performance counter stats for './RSBench':
-
-     2,463,284,827      instructions              #    1.39  insn per cycle                                            
-     1,770,155,725      cpu-cycles                                                  
-
-       0.558875350 seconds time elapsed
-
