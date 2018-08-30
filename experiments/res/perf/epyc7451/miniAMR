@@ -1,0 +1,8 @@
+
+ Performance counter stats for './miniAMR':
+
+     5,955,915,440      instructions              #    2.05  insn per cycle                                            
+     2,911,011,579      cpu-cycles                                                  
+
+       0.921278464 seconds time elapsed
+

@@ -1,0 +1,8 @@
+
+ Performance counter stats for './XSBench':
+
+     4,437,376,679      instructions              #    0.90  insn per cycle                                            
+     4,925,606,177      cpu-cycles                                                  
+
+       1.550157057 seconds time elapsed
+
