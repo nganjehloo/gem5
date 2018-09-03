@@ -1,4 +1,4 @@
 
 SRC=$(wildcard *.c)
 XSBench: $(SRC)
-	gcc $^ -o $@ -lm -DVERIFICATION
+	gcc $^ -o $@ -lm -DVERIFICATION -static

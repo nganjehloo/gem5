@@ -1,2 +1,2 @@
 FloatMM: FloatMM.c
-	gcc -o FloatMM FloatMM.c
+	gcc -o FloatMM FloatMM.c -static
