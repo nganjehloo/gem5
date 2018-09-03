@@ -1,4 +1,5 @@
-# started on Thu Aug 30 16:00:01 2018
+# started on Mon Sep  3 14:25:35 2018
 
-16027308187  instructions 1951126651 100.00 2.59 insn per cycle    
-6184895220  cpu-cycles 1951126651 100.00    
+16000302095  instructions 1930357428 100.00 2.60 insn per cycle    
+6147647930  cpu-cycles 1930357428 100.00    
+16004324832  rc1 1930357428 100.00    

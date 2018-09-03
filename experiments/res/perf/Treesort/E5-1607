@@ -1,4 +1,5 @@
-# started on Fri Aug 31 13:20:23 2018
+# started on Mon Sep  3 14:31:32 2018
 
-355787617  instructions 125814911 100.00 1.00 insn per cycle  
-356400637  cpu-cycles 125814911 100.00  
+353182549  instructions 121807052 100.00 0.99 insn per cycle  
+355496938  cpu-cycles 121807052 100.00  
+447512463  uops_retired.all 121807052 100.00  

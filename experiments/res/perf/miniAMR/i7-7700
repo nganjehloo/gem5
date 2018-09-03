@@ -1,4 +1,5 @@
-# started on Thu Aug 30 16:52:10 2018
+# started on Mon Sep  3 14:30:01 2018
 
-6007903122  instructions 646515310 100.00 2.30 insn per cycle
-2609085953  cpu-cycles 646515310 100.00  
+5984435211  instructions 616963341 100.00 2.39 insn per cycle
+2507437700  cpu-cycles 616963341 100.00  
+6454333816  uops_executed.thread 616963341 100.00  
