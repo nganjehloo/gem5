@@ -39,7 +39,21 @@ import m5
 from m5.objects import *
 
 import argparse
-
+import sys
+import os
+#print(os.path.dirname(os.path.realpath(__file__)))
+#import os
+p = os.path.abspath('.')
+print(p)
+p = os.path.dirname(p)
+print(p)
+p = os.path.dirname(p)
+print(p)
+sys.path.append(os.path.join(p, 'gem5'))
+p = os.path.abspath('...')
+print("Second p is " + p)
+print(sys.path)
+import fixture
 parser = argparse.ArgumentParser(description='Simple memory tester')
 parser.add_argument('--bandwidth', default=None)
 parser.add_argument('--latency', default=None)
@@ -49,13 +63,10 @@ args = parser.parse_args()
 
 # both traffic generator and communication monitor are only available
 # if we have protobuf support, so potentially skip this test
-<<<<<<< HEAD
-# require_sim_object("TrafficGen") <-- uncommenting these checks causes the tests to fail
-# require_sim_object("CommMonitor")
-=======
-require_sim_object("TrafficGen") <-- uncommenting these checks causes the tests to fail
+
+require_sim_object("TrafficGen")
 require_sim_object("CommMonitor")
->>>>>>> 6d0568ac989684bd2296438d7ade879deb48d540
+
 # This needs to be fixed in the new infrastructure
 
 # even if this is only a traffic generator, call it cpu to make sure

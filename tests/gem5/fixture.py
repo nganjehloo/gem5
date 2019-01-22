@@ -35,6 +35,36 @@ from testlib.config import config, constants
 from testlib.helper import log_call, cacheresult, joinpath, absdirpath
 import testlib.log as log
 
+def skip_test(reason=""):
+    """Signal that a test should be skipped and optionally print why.
+
+    Keyword arguments:
+      reason -- Reason why the test failed. Output is omitted if empty.
+    """
+
+    if reason:
+        print("Skipping test: %s" % reason)
+    sys.exit(2)
+
+def require_sim_object(name, fatal=False):
+    """Test if a SimObject exists and abort/skip test if not.
+
+    Arguments:
+      name -- Name of SimObject (string)
+
+    Keyword arguments:
+      fatal -- Set to True to indicate that the test should fail
+               instead of being skipped.
+    """
+
+    if has_sim_object(name):
+        return
+    else:
+        msg = "Test requires the '%s' SimObject." % name
+        if fatal:
+            m5.fatal(msg)
+        else:
+            skip_test(msg)
 
 class VariableFixture(Fixture):
     def __init__(self, value=None, name=None):

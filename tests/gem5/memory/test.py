@@ -30,8 +30,10 @@
 Test file for simple memory test
 '''
 from testlib import *
+import sys
 
 ref_path = joinpath(getcwd(), 'ref')
+print(sys.path)
 
 gem5_verify_config(
     name='simple_mem_default',
